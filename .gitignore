@@ -344,3 +344,170 @@
 </div>
 </body>
 </html>
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.profile-img-holder {
+    background-color: #565656;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.profile-img {
+    margin-top: 10px;
+    border: 5px dotted #fabe28;
+    border-radius: 50%;
+}
+
+.name-holder {
+    height: 25px;
+    background-color: #eeeeee;
+}
+
+.name {
+    position: absolute;
+    font-size: 36px;
+    left: 37%;
+    background-color: #fabe28;
+    padding: 5px 40px;
+    top: 180px;
+    line-height: 56px;
+    border-radius: 5px;
+}
+
+.address-holder {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    font-size: 18px;
+    line-height: 42px;
+}
+.footer-holder {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.details-container {
+    padding: 10px;
+}
+
+.split-equally {
+    display: grid;
+}
+
+.left-half {
+    grid-column: 1;
+    padding: 0 20px;
+}
+
+.right-half {
+    grid-column: 2;
+    padding: 0 20px;
+}
+
+.border-right {
+    border-right: 1px solid #cccccc;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 10px 0;
+}
+
+.section-title {
+    display: flex;
+}
+
+.section-title .section-icon-border {
+    border: 3px dotted #fabe28;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    height: 34px;
+    width: 34px;
+}
+
+.section-title .section-icon {
+    height: 30px;
+    background-color: #3f3f3e;
+    margin: 2px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.section-title .section-icon i {
+    color: #fabe28;
+    font-size: 14px;
+    padding: 9px;
+}
+
+.section-title-text {
+    font-size: 24px;
+    /* line-height: 42px; */
+    color: #5e5e5e;
+    /*position: absolute;*/
+    left: 87px;
+    margin-top: 6px;
+}
+
+a {
+    color: #fabe28;
+}
+
+.skill-container {
+    display: block;
+}
+
+.skill-container .skill-title {
+    display: inline-block;
+    width: 49%;
+}
+
+.skill-container .skill-reader {
+    display: inline-block;
+    width: 49%;
+}
+
+.skill-container .skill {
+    background-color: #ececec;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.skill .having {
+    text-align: right;
+    padding: 10px 0;
+    border-radius: 5px;
+    background: linear-gradient(to right, #fabe28 0%, #efc88d 100%);
+    /*background: #fabe28;*/
+}
+
+.position-holder {
+    width: 100%;
+}
+
+.position-holder .positioned-at {
+    clear: both;
+    padding: 5px 0 0 0;
+}
+
+.position-holder .position {
+    font-size: 18px;
+    font-weight: 800;
+    float: left;
+}
+
+.position-holder .positioned-date {
+    float: right;
+    clear: right;
+}
+section{
+    margin-top: 10px;
+}
